@@ -1,0 +1,180 @@
+/*Reset browser*/
+body,
+ul,
+ol,
+li {
+  margin: 0 auto;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0 auto;
+}
+.default {
+  background-color: #d9d9d9;
+}
+.default .full .shadow {
+  box-shadow: 5px 5px 5px #837a7a inset;
+}
+.default #header {
+  background-color: black;
+  box-shadow: 5px 5px 5px #837a7a;
+}
+.default #topBar {
+  background-color: black;
+  box-shadow: 5px 5px 5px #837a7a;
+  color: white;
+  height: 50px;
+}
+.default #footer {
+  background-color: #666666;
+  color: white;
+  padding-top: 1em;
+}
+@media only screen and (min-width: 768px) {
+  .grid {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+}
+/* for PC*/
+/*grid*/
+.grid:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+.grid {
+  width: 90%;
+  margin: auto;
+  padding: 0;
+}
+.gd15 {
+  width: 15%;
+  float: left;
+}
+.gd15-pull {
+  width: 15%;
+  float: right;
+}
+.gd20 {
+  width: 20%;
+  float: left;
+}
+.gd20-pull {
+  width: 20%;
+  float: right;
+}
+.gd33 {
+  width: 33.33%;
+  float: left;
+}
+.gd35 {
+  width: 35%;
+  float: left;
+}
+.gd35-pull {
+  width: 35%;
+  float: right;
+}
+.gd40 {
+  width: 40%;
+  float: left;
+}
+.gd40-pull {
+  width: 40%;
+  float: right;
+}
+.gd45 {
+  width: 45%;
+  float: left;
+}
+.gd45-pull {
+  width: 45%;
+  float: right;
+}
+.gd50 {
+  width: 50%;
+  float: left;
+}
+.gd50-pull {
+  width: 50%;
+  float: right;
+}
+.gd55 {
+  width: 55%;
+  float: left;
+}
+.gd55-p {
+  width: 55%;
+  float: right;
+}
+.gd60 {
+  width: 60%;
+  float: left;
+}
+.gd60-pull {
+  width: 60%;
+  float: right;
+}
+.gd65 {
+  width: 65%;
+  float: left;
+}
+.gd65-pull {
+  width: 65%;
+  float: right;
+}
+.gd70 {
+  width: 70%;
+  float: left;
+}
+.gd70-pull {
+  width: 70%;
+  float: right;
+}
+.gd75 {
+  width: 75%;
+  float: left;
+}
+.gd75-pull {
+  width: 75%;
+  float: right;
+}
+.gd80 {
+  width: 80%;
+  float: left;
+}
+.gd80-pull {
+  width: 80%;
+  float: right;
+}
+.gd85 {
+  width: 85%;
+  float: left;
+}
+.gd85-pull {
+  width: 85%;
+  float: right;
+}
+.gd90 {
+  width: 90%;
+  float: left;
+}
+.gd90-pull {
+  width: 90%;
+  float: right;
+}
+/*content-box*/
+.box {
+  box-shadow: 1px 0px 10px black inset;
+}
+.content-box {
+  padding: .5em;
+}

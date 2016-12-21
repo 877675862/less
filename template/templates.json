@@ -1,0 +1,6 @@
+{
+  "template":{
+    "header":"template/header.html",
+    "footer":"template/footer.html"
+  }
+}
